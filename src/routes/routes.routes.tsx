@@ -1,12 +1,13 @@
 import { createStackNavigator } from '@react-navigation/stack'
-import { CategoriasRoutes } from './categorias.routes'
+import Home from '../screen/Home'
+import { LogadoRoutes } from './logado.routes'
 const { Screen, Navigator } = createStackNavigator()
 
 export function RoutesRoutes() {
-
 	return (
-		<Navigator initialRouteName='SplashScreen' screenOptions={{ headerShown: false }}>
-			<Screen name='Categorias' component={CategoriasRoutes} />
+		<Navigator initialRouteName='Logado' screenOptions={{ headerShown: false }}>
+			<Screen name='Home' component={Home}/>
+			<Screen name='Logado' component={LogadoRoutes}/>
 		</Navigator>
 	)
 }

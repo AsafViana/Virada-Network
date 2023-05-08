@@ -35,7 +35,7 @@ export default function index(props) {
 		<Box flex={1} backgroundColor={color.preto}pt={4}>
 			<Header />
 			<Box>
-				<HStack pb={3} pl={5} pr={3} space={2}>
+				<HStack pb={3} pl={5} pr={3}>
 					{ParaVoce ? (
 						<Center rounded={'full'} overflow={'hidden'} maxH={8}>
 							<LinearGradient style={{ flex: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 9 }} colors={['#FF0000', '#FF5C00', '#0500FF']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }}>

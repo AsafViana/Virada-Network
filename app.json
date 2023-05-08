@@ -18,6 +18,9 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.virada_network",
+      "versionCode": 7,
+      "versionName": "1.0.0",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +28,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d743340b-cd9e-4d42-8288-4b04edea2586"
+      }
     }
   }
 }
